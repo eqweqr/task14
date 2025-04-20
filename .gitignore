@@ -6,6 +6,5 @@
 raft
 nginx
 !task13/nginx
-task13/nginx/cert/*
-cert
+*.pem
 !Dockerfile

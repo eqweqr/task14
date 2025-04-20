@@ -1,0 +1,8 @@
+services:
+  nginx:
+    image: zak
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_PORT=8086

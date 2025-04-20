@@ -1,1 +1,1 @@
-echo 'hello'
+echo 'hello' | tr a-z A-Z
